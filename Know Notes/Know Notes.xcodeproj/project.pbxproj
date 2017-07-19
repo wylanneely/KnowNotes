@@ -127,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				B2C49AB11F1FF5D90084218A /* Main.storyboard */,
+				B24161C31F20126900DEBDBB /* Views */,
 				B20A0D791F1FF32D00D461F7 /* ViewControllers */,
 				B20A0D781F1FF32C00D461F7 /* ModelControllers */,
 				B20A0D771F1FF32B00D461F7 /* Models */,
@@ -177,6 +178,13 @@
 				B2C49A621F1FF3C60084218A /* ScoresViewController.swift */,
 			);
 			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B24161C31F20126900DEBDBB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		B2C49A791F1FF41E0084218A /* Sounds */ = {
