@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B20A0D651F1FF2FE00D461F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20A0D641F1FF2FE00D461F7 /* AppDelegate.swift */; };
+		B20A0D6C1F1FF2FE00D461F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20A0D6B1F1FF2FE00D461F7 /* Assets.xcassets */; };
+		B20A0D6F1F1FF2FE00D461F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B20A0D6D1F1FF2FE00D461F7 /* LaunchScreen.storyboard */; };
+		B2C49A631F1FF3C60084218A /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C49A5F1F1FF3C60084218A /* TabBarViewController.swift */; };
+		B2C49A641F1FF3C60084218A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C49A601F1FF3C60084218A /* MainViewController.swift */; };
+		B2C49A651F1FF3C60084218A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C49A611F1FF3C60084218A /* SettingsViewController.swift */; };
+		B2C49A661F1FF3C60084218A /* ScoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C49A621F1FF3C60084218A /* ScoresViewController.swift */; };
+		B2C49A6A1F1FF3DA0084218A /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C49A671F1FF3DA0084218A /* GameController.swift */; };
+		B2C49A6B1F1FF3DA0084218A /* SoundController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C49A681F1FF3DA0084218A /* SoundController.swift */; };
+		B2C49A6C1F1FF3DA0084218A /* HighScoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C49A691F1FF3DA0084218A /* HighScoreController.swift */; };
+		B2C49A711F1FF3E60084218A /* PianoSoundFilesPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C49A6D1F1FF3E60084218A /* PianoSoundFilesPath.swift */; };
+		B2C49A721F1FF3E60084218A /* GuitarMajorChords.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C49A6E1F1FF3E60084218A /* GuitarMajorChords.swift */; };
+		B2C49A731F1FF3E60084218A /* ViolinSoundFilesPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C49A6F1F1FF3E60084218A /* ViolinSoundFilesPath.swift */; };
+		B2C49A741F1FF3E60084218A /* DiamondShapedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C49A701F1FF3E60084218A /* DiamondShapedButton.swift */; };
+		B2C49A841F1FF4850084218A /* violinA.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2C49A7D1F1FF4850084218A /* violinA.wav */; };
+		B2C49A851F1FF4850084218A /* violinB.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2C49A7E1F1FF4850084218A /* violinB.wav */; };
+		B2C49A861F1FF4850084218A /* violinC.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2C49A7F1F1FF4850084218A /* violinC.wav */; };
+		B2C49A871F1FF4850084218A /* violinD.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2C49A801F1FF4850084218A /* violinD.wav */; };
+		B2C49A881F1FF4850084218A /* violinE.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2C49A811F1FF4850084218A /* violinE.wav */; };
+		B2C49A891F1FF4850084218A /* violinF.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2C49A821F1FF4850084218A /* violinF.wav */; };
+		B2C49A8A1F1FF4850084218A /* violinG.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2C49A831F1FF4850084218A /* violinG.wav */; };
+		B2C49A921F1FF4930084218A /* EMajorGuitarChord.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2C49A8B1F1FF4930084218A /* EMajorGuitarChord.wav */; };
+		B2C49A931F1FF4930084218A /* DMajorGuitarChord.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2C49A8C1F1FF4930084218A /* DMajorGuitarChord.wav */; };
+		B2C49A941F1FF4930084218A /* GMajorGuitarChord.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2C49A8D1F1FF4930084218A /* GMajorGuitarChord.wav */; };
+		B2C49A951F1FF4930084218A /* FMajorGuitarChord.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2C49A8E1F1FF4930084218A /* FMajorGuitarChord.wav */; };
+		B2C49A961F1FF4930084218A /* CMajorGuitarChord.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2C49A8F1F1FF4930084218A /* CMajorGuitarChord.wav */; };
+		B2C49A971F1FF4930084218A /* BMajorGuitarChord.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2C49A901F1FF4930084218A /* BMajorGuitarChord.wav */; };
+		B2C49A981F1FF4930084218A /* AMajorGuitarChord.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2C49A911F1FF4930084218A /* AMajorGuitarChord.wav */; };
+		B2C49AA51F1FF4A50084218A /* a.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2C49A991F1FF4A50084218A /* a.wav */; };
+		B2C49AA61F1FF4A50084218A /* b.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2C49A9A1F1FF4A50084218A /* b.wav */; };
+		B2C49AA71F1FF4A50084218A /* bflat.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2C49A9B1F1FF4A50084218A /* bflat.wav */; };
+		B2C49AA81F1FF4A50084218A /* csharp.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2C49A9C1F1FF4A50084218A /* csharp.wav */; };
+		B2C49AA91F1FF4A50084218A /* c.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2C49A9D1F1FF4A50084218A /* c.wav */; };
+		B2C49AAA1F1FF4A50084218A /* d.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2C49A9E1F1FF4A50084218A /* d.wav */; };
+		B2C49AAB1F1FF4A50084218A /* e.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2C49A9F1F1FF4A50084218A /* e.wav */; };
+		B2C49AAC1F1FF4A50084218A /* eflat.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2C49AA01F1FF4A50084218A /* eflat.wav */; };
+		B2C49AAD1F1FF4A50084218A /* fsharp.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2C49AA11F1FF4A50084218A /* fsharp.wav */; };
+		B2C49AAE1F1FF4A50084218A /* f.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2C49AA21F1FF4A50084218A /* f.wav */; };
+		B2C49AAF1F1FF4A50084218A /* gsharp.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2C49AA31F1FF4A50084218A /* gsharp.wav */; };
+		B2C49AB01F1FF4A50084218A /* g.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2C49AA41F1FF4A50084218A /* g.wav */; };
+		B2C49AB31F1FF5D90084218A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2C49AB11F1FF5D90084218A /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B20A0D611F1FF2FE00D461F7 /* Know Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Know Notes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20A0D641F1FF2FE00D461F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B20A0D6B1F1FF2FE00D461F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B20A0D6E1F1FF2FE00D461F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B20A0D701F1FF2FE00D461F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2C49A5F1F1FF3C60084218A /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarViewController.swift; path = "../../../Wylan Programming 2017/Testing/CustomTabbarController/CustomTabbarController/TabBarViewController.swift"; sourceTree = "<group>"; };
+		B2C49A601F1FF3C60084218A /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = "../../../Wylan Programming 2017/Testing/CustomTabbarController/CustomTabbarController/MainViewController.swift"; sourceTree = "<group>"; };
+		B2C49A611F1FF3C60084218A /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = "../../../Wylan Programming 2017/Testing/CustomTabbarController/CustomTabbarController/SettingsViewController.swift"; sourceTree = "<group>"; };
+		B2C49A621F1FF3C60084218A /* ScoresViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScoresViewController.swift; path = "../../../Wylan Programming 2017/Testing/CustomTabbarController/CustomTabbarController/ScoresViewController.swift"; sourceTree = "<group>"; };
+		B2C49A671F1FF3DA0084218A /* GameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameController.swift; path = "../../../Wylan Programming 2017/Testing/CustomTabbarController/CustomTabbarController/GameController.swift"; sourceTree = "<group>"; };
+		B2C49A681F1FF3DA0084218A /* SoundController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SoundController.swift; path = "../../../Wylan Programming 2017/Testing/CustomTabbarController/CustomTabbarController/SoundController.swift"; sourceTree = "<group>"; };
+		B2C49A691F1FF3DA0084218A /* HighScoreController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HighScoreController.swift; path = "../../../Wylan Programming 2017/Testing/CustomTabbarController/CustomTabbarController/HighScoreController.swift"; sourceTree = "<group>"; };
+		B2C49A6D1F1FF3E60084218A /* PianoSoundFilesPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PianoSoundFilesPath.swift; path = "../../../Wylan Programming 2017/Testing/CustomTabbarController/CustomTabbarController/PianoSoundFilesPath.swift"; sourceTree = "<group>"; };
+		B2C49A6E1F1FF3E60084218A /* GuitarMajorChords.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GuitarMajorChords.swift; path = "../../../Wylan Programming 2017/Testing/CustomTabbarController/CustomTabbarController/GuitarMajorChords.swift"; sourceTree = "<group>"; };
+		B2C49A6F1F1FF3E60084218A /* ViolinSoundFilesPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViolinSoundFilesPath.swift; path = "../../../Wylan Programming 2017/Testing/CustomTabbarController/CustomTabbarController/ViolinSoundFilesPath.swift"; sourceTree = "<group>"; };
+		B2C49A701F1FF3E60084218A /* DiamondShapedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiamondShapedButton.swift; path = "../../../Wylan Programming 2017/Testing/CustomTabbarController/CustomTabbarController/DiamondShapedButton.swift"; sourceTree = "<group>"; };
+		B2C49A7D1F1FF4850084218A /* violinA.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = violinA.wav; path = ../../../../Documents/violinA.wav; sourceTree = "<group>"; };
+		B2C49A7E1F1FF4850084218A /* violinB.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = violinB.wav; path = ../../../../Documents/violinB.wav; sourceTree = "<group>"; };
+		B2C49A7F1F1FF4850084218A /* violinC.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = violinC.wav; path = ../../../../Documents/violinC.wav; sourceTree = "<group>"; };
+		B2C49A801F1FF4850084218A /* violinD.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = violinD.wav; path = ../../../../Documents/violinD.wav; sourceTree = "<group>"; };
+		B2C49A811F1FF4850084218A /* violinE.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = violinE.wav; path = ../../../../Documents/violinE.wav; sourceTree = "<group>"; };
+		B2C49A821F1FF4850084218A /* violinF.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = violinF.wav; path = ../../../../Documents/violinF.wav; sourceTree = "<group>"; };
+		B2C49A831F1FF4850084218A /* violinG.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = violinG.wav; path = ../../../../Documents/violinG.wav; sourceTree = "<group>"; };
+		B2C49A8B1F1FF4930084218A /* EMajorGuitarChord.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = EMajorGuitarChord.wav; path = ../../../../Documents/EMajorGuitarChord.wav; sourceTree = "<group>"; };
+		B2C49A8C1F1FF4930084218A /* DMajorGuitarChord.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = DMajorGuitarChord.wav; path = ../../../../Documents/DMajorGuitarChord.wav; sourceTree = "<group>"; };
+		B2C49A8D1F1FF4930084218A /* GMajorGuitarChord.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = GMajorGuitarChord.wav; path = ../../../../Documents/GMajorGuitarChord.wav; sourceTree = "<group>"; };
+		B2C49A8E1F1FF4930084218A /* FMajorGuitarChord.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = FMajorGuitarChord.wav; path = ../../../../Documents/FMajorGuitarChord.wav; sourceTree = "<group>"; };
+		B2C49A8F1F1FF4930084218A /* CMajorGuitarChord.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = CMajorGuitarChord.wav; path = ../../../../Documents/CMajorGuitarChord.wav; sourceTree = "<group>"; };
+		B2C49A901F1FF4930084218A /* BMajorGuitarChord.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = BMajorGuitarChord.wav; path = ../../../../Documents/BMajorGuitarChord.wav; sourceTree = "<group>"; };
+		B2C49A911F1FF4930084218A /* AMajorGuitarChord.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = AMajorGuitarChord.wav; path = ../../../../Documents/AMajorGuitarChord.wav; sourceTree = "<group>"; };
+		B2C49A991F1FF4A50084218A /* a.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = a.wav; path = ../../LearnYourNotes/LearnYourNotes/a.wav; sourceTree = "<group>"; };
+		B2C49A9A1F1FF4A50084218A /* b.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = b.wav; path = ../../LearnYourNotes/LearnYourNotes/b.wav; sourceTree = "<group>"; };
+		B2C49A9B1F1FF4A50084218A /* bflat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = bflat.wav; path = ../../LearnYourNotes/LearnYourNotes/bflat.wav; sourceTree = "<group>"; };
+		B2C49A9C1F1FF4A50084218A /* csharp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = csharp.wav; path = ../../LearnYourNotes/LearnYourNotes/csharp.wav; sourceTree = "<group>"; };
+		B2C49A9D1F1FF4A50084218A /* c.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = c.wav; path = ../../LearnYourNotes/LearnYourNotes/c.wav; sourceTree = "<group>"; };
+		B2C49A9E1F1FF4A50084218A /* d.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = d.wav; path = ../../LearnYourNotes/LearnYourNotes/d.wav; sourceTree = "<group>"; };
+		B2C49A9F1F1FF4A50084218A /* e.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = e.wav; path = ../../LearnYourNotes/LearnYourNotes/e.wav; sourceTree = "<group>"; };
+		B2C49AA01F1FF4A50084218A /* eflat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = eflat.wav; path = ../../LearnYourNotes/LearnYourNotes/eflat.wav; sourceTree = "<group>"; };
+		B2C49AA11F1FF4A50084218A /* fsharp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = fsharp.wav; path = ../../LearnYourNotes/LearnYourNotes/fsharp.wav; sourceTree = "<group>"; };
+		B2C49AA21F1FF4A50084218A /* f.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = f.wav; path = ../../LearnYourNotes/LearnYourNotes/f.wav; sourceTree = "<group>"; };
+		B2C49AA31F1FF4A50084218A /* gsharp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = gsharp.wav; path = ../../LearnYourNotes/LearnYourNotes/gsharp.wav; sourceTree = "<group>"; };
+		B2C49AA41F1FF4A50084218A /* g.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = g.wav; path = ../../LearnYourNotes/LearnYourNotes/g.wav; sourceTree = "<group>"; };
+		B2C49AB21F1FF5D90084218A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../Wylan Programming 2017/Testing/CustomTabbarController/CustomTabbarController/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B20A0D5E1F1FF2FE00D461F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B20A0D581F1FF2FE00D461F7 = {
+			isa = PBXGroup;
+			children = (
+				B20A0D631F1FF2FE00D461F7 /* Know Notes */,
+				B20A0D621F1FF2FE00D461F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B20A0D621F1FF2FE00D461F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B20A0D611F1FF2FE00D461F7 /* Know Notes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B20A0D631F1FF2FE00D461F7 /* Know Notes */ = {
+			isa = PBXGroup;
+			children = (
+				B2C49AB11F1FF5D90084218A /* Main.storyboard */,
+				B20A0D791F1FF32D00D461F7 /* ViewControllers */,
+				B20A0D781F1FF32C00D461F7 /* ModelControllers */,
+				B20A0D771F1FF32B00D461F7 /* Models */,
+				B20A0D761F1FF32A00D461F7 /* Resources */,
+			);
+			path = "Know Notes";
+			sourceTree = "<group>";
+		};
+		B20A0D761F1FF32A00D461F7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B2C49A791F1FF41E0084218A /* Sounds */,
+				B20A0D641F1FF2FE00D461F7 /* AppDelegate.swift */,
+				B20A0D6B1F1FF2FE00D461F7 /* Assets.xcassets */,
+				B20A0D6D1F1FF2FE00D461F7 /* LaunchScreen.storyboard */,
+				B20A0D701F1FF2FE00D461F7 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B20A0D771F1FF32B00D461F7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B2C49A6D1F1FF3E60084218A /* PianoSoundFilesPath.swift */,
+				B2C49A6E1F1FF3E60084218A /* GuitarMajorChords.swift */,
+				B2C49A6F1F1FF3E60084218A /* ViolinSoundFilesPath.swift */,
+				B2C49A701F1FF3E60084218A /* DiamondShapedButton.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B20A0D781F1FF32C00D461F7 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B2C49A671F1FF3DA0084218A /* GameController.swift */,
+				B2C49A681F1FF3DA0084218A /* SoundController.swift */,
+				B2C49A691F1FF3DA0084218A /* HighScoreController.swift */,
+			);
+			name = ModelControllers;
+			sourceTree = "<group>";
+		};
+		B20A0D791F1FF32D00D461F7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B2C49A5F1F1FF3C60084218A /* TabBarViewController.swift */,
+				B2C49A601F1FF3C60084218A /* MainViewController.swift */,
+				B2C49A611F1FF3C60084218A /* SettingsViewController.swift */,
+				B2C49A621F1FF3C60084218A /* ScoresViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B2C49A791F1FF41E0084218A /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				B2C49A7A1F1FF41E0084218A /* ViolinSounds */,
+				B2C49A7C1F1FF4560084218A /* GuitarSounds */,
+				B2C49A7B1F1FF4320084218A /* PianoSounds */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		B2C49A7A1F1FF41E0084218A /* ViolinSounds */ = {
+			isa = PBXGroup;
+			children = (
+				B2C49A7D1F1FF4850084218A /* violinA.wav */,
+				B2C49A7E1F1FF4850084218A /* violinB.wav */,
+				B2C49A7F1F1FF4850084218A /* violinC.wav */,
+				B2C49A801F1FF4850084218A /* violinD.wav */,
+				B2C49A811F1FF4850084218A /* violinE.wav */,
+				B2C49A821F1FF4850084218A /* violinF.wav */,
+				B2C49A831F1FF4850084218A /* violinG.wav */,
+			);
+			name = ViolinSounds;
+			sourceTree = "<group>";
+		};
+		B2C49A7B1F1FF4320084218A /* PianoSounds */ = {
+			isa = PBXGroup;
+			children = (
+				B2C49A991F1FF4A50084218A /* a.wav */,
+				B2C49A9A1F1FF4A50084218A /* b.wav */,
+				B2C49A9B1F1FF4A50084218A /* bflat.wav */,
+				B2C49A9C1F1FF4A50084218A /* csharp.wav */,
+				B2C49A9D1F1FF4A50084218A /* c.wav */,
+				B2C49A9E1F1FF4A50084218A /* d.wav */,
+				B2C49A9F1F1FF4A50084218A /* e.wav */,
+				B2C49AA01F1FF4A50084218A /* eflat.wav */,
+				B2C49AA11F1FF4A50084218A /* fsharp.wav */,
+				B2C49AA21F1FF4A50084218A /* f.wav */,
+				B2C49AA31F1FF4A50084218A /* gsharp.wav */,
+				B2C49AA41F1FF4A50084218A /* g.wav */,
+			);
+			name = PianoSounds;
+			sourceTree = "<group>";
+		};
+		B2C49A7C1F1FF4560084218A /* GuitarSounds */ = {
+			isa = PBXGroup;
+			children = (
+				B2C49A8B1F1FF4930084218A /* EMajorGuitarChord.wav */,
+				B2C49A8C1F1FF4930084218A /* DMajorGuitarChord.wav */,
+				B2C49A8D1F1FF4930084218A /* GMajorGuitarChord.wav */,
+				B2C49A8E1F1FF4930084218A /* FMajorGuitarChord.wav */,
+				B2C49A8F1F1FF4930084218A /* CMajorGuitarChord.wav */,
+				B2C49A901F1FF4930084218A /* BMajorGuitarChord.wav */,
+				B2C49A911F1FF4930084218A /* AMajorGuitarChord.wav */,
+			);
+			name = GuitarSounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B20A0D601F1FF2FE00D461F7 /* Know Notes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20A0D731F1FF2FE00D461F7 /* Build configuration list for PBXNativeTarget "Know Notes" */;
+			buildPhases = (
+				B20A0D5D1F1FF2FE00D461F7 /* Sources */,
+				B20A0D5E1F1FF2FE00D461F7 /* Frameworks */,
+				B20A0D5F1F1FF2FE00D461F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Know Notes";
+			productName = "Know Notes";
+			productReference = B20A0D611F1FF2FE00D461F7 /* Know Notes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B20A0D591F1FF2FE00D461F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Wylan;
+				TargetAttributes = {
+					B20A0D601F1FF2FE00D461F7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = L4J4QU6QE4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B20A0D5C1F1FF2FE00D461F7 /* Build configuration list for PBXProject "Know Notes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B20A0D581F1FF2FE00D461F7;
+			productRefGroup = B20A0D621F1FF2FE00D461F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B20A0D601F1FF2FE00D461F7 /* Know Notes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B20A0D5F1F1FF2FE00D461F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C49AAA1F1FF4A50084218A /* d.wav in Resources */,
+				B2C49AA91F1FF4A50084218A /* c.wav in Resources */,
+				B20A0D6F1F1FF2FE00D461F7 /* LaunchScreen.storyboard in Resources */,
+				B2C49A921F1FF4930084218A /* EMajorGuitarChord.wav in Resources */,
+				B2C49AA61F1FF4A50084218A /* b.wav in Resources */,
+				B2C49A981F1FF4930084218A /* AMajorGuitarChord.wav in Resources */,
+				B2C49AB01F1FF4A50084218A /* g.wav in Resources */,
+				B2C49AAB1F1FF4A50084218A /* e.wav in Resources */,
+				B2C49A861F1FF4850084218A /* violinC.wav in Resources */,
+				B2C49AAD1F1FF4A50084218A /* fsharp.wav in Resources */,
+				B2C49A961F1FF4930084218A /* CMajorGuitarChord.wav in Resources */,
+				B2C49A941F1FF4930084218A /* GMajorGuitarChord.wav in Resources */,
+				B2C49AAF1F1FF4A50084218A /* gsharp.wav in Resources */,
+				B2C49A871F1FF4850084218A /* violinD.wav in Resources */,
+				B2C49A841F1FF4850084218A /* violinA.wav in Resources */,
+				B2C49A891F1FF4850084218A /* violinF.wav in Resources */,
+				B2C49AAC1F1FF4A50084218A /* eflat.wav in Resources */,
+				B2C49AAE1F1FF4A50084218A /* f.wav in Resources */,
+				B2C49A971F1FF4930084218A /* BMajorGuitarChord.wav in Resources */,
+				B2C49A931F1FF4930084218A /* DMajorGuitarChord.wav in Resources */,
+				B20A0D6C1F1FF2FE00D461F7 /* Assets.xcassets in Resources */,
+				B2C49AA81F1FF4A50084218A /* csharp.wav in Resources */,
+				B2C49AA51F1FF4A50084218A /* a.wav in Resources */,
+				B2C49A881F1FF4850084218A /* violinE.wav in Resources */,
+				B2C49AB31F1FF5D90084218A /* Main.storyboard in Resources */,
+				B2C49A951F1FF4930084218A /* FMajorGuitarChord.wav in Resources */,
+				B2C49A851F1FF4850084218A /* violinB.wav in Resources */,
+				B2C49AA71F1FF4A50084218A /* bflat.wav in Resources */,
+				B2C49A8A1F1FF4850084218A /* violinG.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B20A0D5D1F1FF2FE00D461F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C49A641F1FF3C60084218A /* MainViewController.swift in Sources */,
+				B2C49A6A1F1FF3DA0084218A /* GameController.swift in Sources */,
+				B2C49A661F1FF3C60084218A /* ScoresViewController.swift in Sources */,
+				B2C49A711F1FF3E60084218A /* PianoSoundFilesPath.swift in Sources */,
+				B2C49A631F1FF3C60084218A /* TabBarViewController.swift in Sources */,
+				B2C49A741F1FF3E60084218A /* DiamondShapedButton.swift in Sources */,
+				B2C49A6C1F1FF3DA0084218A /* HighScoreController.swift in Sources */,
+				B2C49A6B1F1FF3DA0084218A /* SoundController.swift in Sources */,
+				B20A0D651F1FF2FE00D461F7 /* AppDelegate.swift in Sources */,
+				B2C49A721F1FF3E60084218A /* GuitarMajorChords.swift in Sources */,
+				B2C49A731F1FF3E60084218A /* ViolinSoundFilesPath.swift in Sources */,
+				B2C49A651F1FF3C60084218A /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B20A0D6D1F1FF2FE00D461F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B20A0D6E1F1FF2FE00D461F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B2C49AB11F1FF5D90084218A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2C49AB21F1FF5D90084218A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B20A0D711F1FF2FE00D461F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B20A0D721F1FF2FE00D461F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B20A0D741F1FF2FE00D461F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L4J4QU6QE4;
+				INFOPLIST_FILE = "Know Notes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wylan.Know-Notes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B20A0D751F1FF2FE00D461F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L4J4QU6QE4;
+				INFOPLIST_FILE = "Know Notes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wylan.Know-Notes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B20A0D5C1F1FF2FE00D461F7 /* Build configuration list for PBXProject "Know Notes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20A0D711F1FF2FE00D461F7 /* Debug */,
+				B20A0D721F1FF2FE00D461F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20A0D731F1FF2FE00D461F7 /* Build configuration list for PBXNativeTarget "Know Notes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20A0D741F1FF2FE00D461F7 /* Debug */,
+				B20A0D751F1FF2FE00D461F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B20A0D591F1FF2FE00D461F7 /* Project object */;
+}
