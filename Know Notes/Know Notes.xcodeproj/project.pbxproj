@@ -10,6 +10,7 @@
 		B20A0D651F1FF2FE00D461F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20A0D641F1FF2FE00D461F7 /* AppDelegate.swift */; };
 		B20A0D6C1F1FF2FE00D461F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20A0D6B1F1FF2FE00D461F7 /* Assets.xcassets */; };
 		B20A0D6F1F1FF2FE00D461F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B20A0D6D1F1FF2FE00D461F7 /* LaunchScreen.storyboard */; };
+		B297921F1F211A1F003D1B1D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B297921E1F211A1F003D1B1D /* Extensions.swift */; };
 		B2C49A631F1FF3C60084218A /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C49A5F1F1FF3C60084218A /* TabBarViewController.swift */; };
 		B2C49A641F1FF3C60084218A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C49A601F1FF3C60084218A /* MainViewController.swift */; };
 		B2C49A651F1FF3C60084218A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C49A611F1FF3C60084218A /* SettingsViewController.swift */; };
@@ -56,6 +57,7 @@
 		B20A0D6B1F1FF2FE00D461F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B20A0D6E1F1FF2FE00D461F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B20A0D701F1FF2FE00D461F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B297921E1F211A1F003D1B1D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		B2C49A5F1F1FF3C60084218A /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarViewController.swift; path = "../../../Wylan Programming 2017/Testing/CustomTabbarController/CustomTabbarController/TabBarViewController.swift"; sourceTree = "<group>"; };
 		B2C49A601F1FF3C60084218A /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = "../../../Wylan Programming 2017/Testing/CustomTabbarController/CustomTabbarController/MainViewController.swift"; sourceTree = "<group>"; };
 		B2C49A611F1FF3C60084218A /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = "../../../Wylan Programming 2017/Testing/CustomTabbarController/CustomTabbarController/SettingsViewController.swift"; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				B2C49A6E1F1FF3E60084218A /* GuitarMajorChords.swift */,
 				B2C49A6F1F1FF3E60084218A /* ViolinSoundFilesPath.swift */,
 				B2C49A701F1FF3E60084218A /* DiamondShapedButton.swift */,
+				B297921E1F211A1F003D1B1D /* Extensions.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 				B2C49A741F1FF3E60084218A /* DiamondShapedButton.swift in Sources */,
 				B2C49A6C1F1FF3DA0084218A /* HighScoreController.swift in Sources */,
 				B2C49A6B1F1FF3DA0084218A /* SoundController.swift in Sources */,
+				B297921F1F211A1F003D1B1D /* Extensions.swift in Sources */,
 				B20A0D651F1FF2FE00D461F7 /* AppDelegate.swift in Sources */,
 				B2C49A721F1FF3E60084218A /* GuitarMajorChords.swift in Sources */,
 				B2C49A731F1FF3E60084218A /* ViolinSoundFilesPath.swift in Sources */,
