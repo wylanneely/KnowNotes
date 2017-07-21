@@ -10,14 +10,20 @@ import UIKit
 
 class SoundsCollectionViewCell: UICollectionViewCell {
     
+    var cellIndexPath: Int = 0
+    
+    @IBOutlet weak var soundButton: UIButton!
+    @IBAction func soundButtonTapped(_ sender: Any) {
+        delegate?.settingButtonChanges(cell: self, selectedValue: cellIndexPath)
+        
+    }
+    
+    weak var delegate: SoundCollectioncellDelegate?
     
     
-    @IBOutlet weak var soundImageView: UIImageView!
     
-    
-    
-    
-    
-    
-    
+}
+
+protocol SoundCollectioncellDelegate: class {
+    func settingButtonChanges(cell: SoundsCollectionViewCell, selectedValue: Int)
 }

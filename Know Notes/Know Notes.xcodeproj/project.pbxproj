@@ -193,8 +193,8 @@
 			isa = PBXGroup;
 			children = (
 				B2C49A5F1F1FF3C60084218A /* TabBarViewController.swift */,
-				B2C49A601F1FF3C60084218A /* MainViewController.swift */,
 				B2C49A611F1FF3C60084218A /* SettingsViewController.swift */,
+				B2C49A601F1FF3C60084218A /* MainViewController.swift */,
 				B2C49A621F1FF3C60084218A /* ScoresViewController.swift */,
 			);
 			name = ViewControllers;
