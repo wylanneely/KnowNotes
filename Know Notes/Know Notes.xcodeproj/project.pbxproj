@@ -11,6 +11,25 @@
 		B20A0D6C1F1FF2FE00D461F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20A0D6B1F1FF2FE00D461F7 /* Assets.xcassets */; };
 		B20A0D6F1F1FF2FE00D461F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B20A0D6D1F1FF2FE00D461F7 /* LaunchScreen.storyboard */; };
 		B297921F1F211A1F003D1B1D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B297921E1F211A1F003D1B1D /* Extensions.swift */; };
+		B2BA6D231F21AE7500F4A7E9 /* ElectricGuitarA.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2BA6D1C1F21AE7500F4A7E9 /* ElectricGuitarA.wav */; };
+		B2BA6D241F21AE7500F4A7E9 /* ElectricGuitarB.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2BA6D1D1F21AE7500F4A7E9 /* ElectricGuitarB.wav */; };
+		B2BA6D251F21AE7500F4A7E9 /* ElectricGuitarC.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2BA6D1E1F21AE7500F4A7E9 /* ElectricGuitarC.wav */; };
+		B2BA6D261F21AE7500F4A7E9 /* ElectricGuitarD.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2BA6D1F1F21AE7500F4A7E9 /* ElectricGuitarD.wav */; };
+		B2BA6D271F21AE7500F4A7E9 /* ElectricGuitarE.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2BA6D201F21AE7500F4A7E9 /* ElectricGuitarE.wav */; };
+		B2BA6D281F21AE7500F4A7E9 /* ElectricGuitarF.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2BA6D211F21AE7500F4A7E9 /* ElectricGuitarF.wav */; };
+		B2BA6D291F21AE7500F4A7E9 /* ElectricGuitarG.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2BA6D221F21AE7500F4A7E9 /* ElectricGuitarG.wav */; };
+		B2BA6D2B1F21AE9000F4A7E9 /* ElectricGuitarSoundsPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BA6D2A1F21AE9000F4A7E9 /* ElectricGuitarSoundsPath.swift */; };
+		B2BA6D371F21B36F00F4A7E9 /* b.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2BA6D2C1F21B36F00F4A7E9 /* b.wav */; };
+		B2BA6D381F21B36F00F4A7E9 /* bflat.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2BA6D2D1F21B36F00F4A7E9 /* bflat.wav */; };
+		B2BA6D391F21B36F00F4A7E9 /* c.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2BA6D2E1F21B36F00F4A7E9 /* c.wav */; };
+		B2BA6D3A1F21B36F00F4A7E9 /* csharp.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2BA6D2F1F21B36F00F4A7E9 /* csharp.wav */; };
+		B2BA6D3B1F21B36F00F4A7E9 /* d.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2BA6D301F21B36F00F4A7E9 /* d.wav */; };
+		B2BA6D3C1F21B36F00F4A7E9 /* e.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2BA6D311F21B36F00F4A7E9 /* e.wav */; };
+		B2BA6D3D1F21B36F00F4A7E9 /* eflat.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2BA6D321F21B36F00F4A7E9 /* eflat.wav */; };
+		B2BA6D3E1F21B36F00F4A7E9 /* f.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2BA6D331F21B36F00F4A7E9 /* f.wav */; };
+		B2BA6D3F1F21B36F00F4A7E9 /* fsharp.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2BA6D341F21B36F00F4A7E9 /* fsharp.wav */; };
+		B2BA6D401F21B36F00F4A7E9 /* g.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2BA6D351F21B36F00F4A7E9 /* g.wav */; };
+		B2BA6D411F21B36F00F4A7E9 /* gsharp.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2BA6D361F21B36F00F4A7E9 /* gsharp.wav */; };
 		B2C49A631F1FF3C60084218A /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C49A5F1F1FF3C60084218A /* TabBarViewController.swift */; };
 		B2C49A641F1FF3C60084218A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C49A601F1FF3C60084218A /* MainViewController.swift */; };
 		B2C49A651F1FF3C60084218A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C49A611F1FF3C60084218A /* SettingsViewController.swift */; };
@@ -36,18 +55,6 @@
 		B2C49A961F1FF4930084218A /* CMajorGuitarChord.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2C49A8F1F1FF4930084218A /* CMajorGuitarChord.wav */; };
 		B2C49A971F1FF4930084218A /* BMajorGuitarChord.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2C49A901F1FF4930084218A /* BMajorGuitarChord.wav */; };
 		B2C49A981F1FF4930084218A /* AMajorGuitarChord.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2C49A911F1FF4930084218A /* AMajorGuitarChord.wav */; };
-		B2C49AA51F1FF4A50084218A /* a.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2C49A991F1FF4A50084218A /* a.wav */; };
-		B2C49AA61F1FF4A50084218A /* b.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2C49A9A1F1FF4A50084218A /* b.wav */; };
-		B2C49AA71F1FF4A50084218A /* bflat.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2C49A9B1F1FF4A50084218A /* bflat.wav */; };
-		B2C49AA81F1FF4A50084218A /* csharp.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2C49A9C1F1FF4A50084218A /* csharp.wav */; };
-		B2C49AA91F1FF4A50084218A /* c.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2C49A9D1F1FF4A50084218A /* c.wav */; };
-		B2C49AAA1F1FF4A50084218A /* d.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2C49A9E1F1FF4A50084218A /* d.wav */; };
-		B2C49AAB1F1FF4A50084218A /* e.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2C49A9F1F1FF4A50084218A /* e.wav */; };
-		B2C49AAC1F1FF4A50084218A /* eflat.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2C49AA01F1FF4A50084218A /* eflat.wav */; };
-		B2C49AAD1F1FF4A50084218A /* fsharp.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2C49AA11F1FF4A50084218A /* fsharp.wav */; };
-		B2C49AAE1F1FF4A50084218A /* f.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2C49AA21F1FF4A50084218A /* f.wav */; };
-		B2C49AAF1F1FF4A50084218A /* gsharp.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2C49AA31F1FF4A50084218A /* gsharp.wav */; };
-		B2C49AB01F1FF4A50084218A /* g.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2C49AA41F1FF4A50084218A /* g.wav */; };
 		B2C49AB31F1FF5D90084218A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2C49AB11F1FF5D90084218A /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +65,25 @@
 		B20A0D6E1F1FF2FE00D461F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B20A0D701F1FF2FE00D461F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B297921E1F211A1F003D1B1D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B2BA6D1C1F21AE7500F4A7E9 /* ElectricGuitarA.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = ElectricGuitarA.wav; path = ../../Sounds/electricGuitar/ElectricGuitarA.wav; sourceTree = "<group>"; };
+		B2BA6D1D1F21AE7500F4A7E9 /* ElectricGuitarB.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = ElectricGuitarB.wav; path = ../../Sounds/electricGuitar/ElectricGuitarB.wav; sourceTree = "<group>"; };
+		B2BA6D1E1F21AE7500F4A7E9 /* ElectricGuitarC.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = ElectricGuitarC.wav; path = ../../Sounds/electricGuitar/ElectricGuitarC.wav; sourceTree = "<group>"; };
+		B2BA6D1F1F21AE7500F4A7E9 /* ElectricGuitarD.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = ElectricGuitarD.wav; path = ../../Sounds/electricGuitar/ElectricGuitarD.wav; sourceTree = "<group>"; };
+		B2BA6D201F21AE7500F4A7E9 /* ElectricGuitarE.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = ElectricGuitarE.wav; path = ../../Sounds/electricGuitar/ElectricGuitarE.wav; sourceTree = "<group>"; };
+		B2BA6D211F21AE7500F4A7E9 /* ElectricGuitarF.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = ElectricGuitarF.wav; path = ../../Sounds/electricGuitar/ElectricGuitarF.wav; sourceTree = "<group>"; };
+		B2BA6D221F21AE7500F4A7E9 /* ElectricGuitarG.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = ElectricGuitarG.wav; path = ../../Sounds/electricGuitar/ElectricGuitarG.wav; sourceTree = "<group>"; };
+		B2BA6D2A1F21AE9000F4A7E9 /* ElectricGuitarSoundsPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElectricGuitarSoundsPath.swift; sourceTree = "<group>"; };
+		B2BA6D2C1F21B36F00F4A7E9 /* b.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = b.wav; path = ../../Sounds/Piano/b.wav; sourceTree = "<group>"; };
+		B2BA6D2D1F21B36F00F4A7E9 /* bflat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = bflat.wav; path = ../../Sounds/Piano/bflat.wav; sourceTree = "<group>"; };
+		B2BA6D2E1F21B36F00F4A7E9 /* c.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = c.wav; path = ../../Sounds/Piano/c.wav; sourceTree = "<group>"; };
+		B2BA6D2F1F21B36F00F4A7E9 /* csharp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = csharp.wav; path = ../../Sounds/Piano/csharp.wav; sourceTree = "<group>"; };
+		B2BA6D301F21B36F00F4A7E9 /* d.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = d.wav; path = ../../Sounds/Piano/d.wav; sourceTree = "<group>"; };
+		B2BA6D311F21B36F00F4A7E9 /* e.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = e.wav; path = ../../Sounds/Piano/e.wav; sourceTree = "<group>"; };
+		B2BA6D321F21B36F00F4A7E9 /* eflat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = eflat.wav; path = ../../Sounds/Piano/eflat.wav; sourceTree = "<group>"; };
+		B2BA6D331F21B36F00F4A7E9 /* f.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = f.wav; path = ../../Sounds/Piano/f.wav; sourceTree = "<group>"; };
+		B2BA6D341F21B36F00F4A7E9 /* fsharp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = fsharp.wav; path = ../../Sounds/Piano/fsharp.wav; sourceTree = "<group>"; };
+		B2BA6D351F21B36F00F4A7E9 /* g.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = g.wav; path = ../../Sounds/Piano/g.wav; sourceTree = "<group>"; };
+		B2BA6D361F21B36F00F4A7E9 /* gsharp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = gsharp.wav; path = ../../Sounds/Piano/gsharp.wav; sourceTree = "<group>"; };
 		B2C49A5F1F1FF3C60084218A /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarViewController.swift; path = "../../../Wylan Programming 2017/Testing/CustomTabbarController/CustomTabbarController/TabBarViewController.swift"; sourceTree = "<group>"; };
 		B2C49A601F1FF3C60084218A /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = "../../../Wylan Programming 2017/Testing/CustomTabbarController/CustomTabbarController/MainViewController.swift"; sourceTree = "<group>"; };
 		B2C49A611F1FF3C60084218A /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = "../../../Wylan Programming 2017/Testing/CustomTabbarController/CustomTabbarController/SettingsViewController.swift"; sourceTree = "<group>"; };
@@ -83,18 +109,6 @@
 		B2C49A8F1F1FF4930084218A /* CMajorGuitarChord.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = CMajorGuitarChord.wav; path = ../../../../Documents/CMajorGuitarChord.wav; sourceTree = "<group>"; };
 		B2C49A901F1FF4930084218A /* BMajorGuitarChord.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = BMajorGuitarChord.wav; path = ../../../../Documents/BMajorGuitarChord.wav; sourceTree = "<group>"; };
 		B2C49A911F1FF4930084218A /* AMajorGuitarChord.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = AMajorGuitarChord.wav; path = ../../../../Documents/AMajorGuitarChord.wav; sourceTree = "<group>"; };
-		B2C49A991F1FF4A50084218A /* a.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = a.wav; path = ../../LearnYourNotes/LearnYourNotes/a.wav; sourceTree = "<group>"; };
-		B2C49A9A1F1FF4A50084218A /* b.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = b.wav; path = ../../LearnYourNotes/LearnYourNotes/b.wav; sourceTree = "<group>"; };
-		B2C49A9B1F1FF4A50084218A /* bflat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = bflat.wav; path = ../../LearnYourNotes/LearnYourNotes/bflat.wav; sourceTree = "<group>"; };
-		B2C49A9C1F1FF4A50084218A /* csharp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = csharp.wav; path = ../../LearnYourNotes/LearnYourNotes/csharp.wav; sourceTree = "<group>"; };
-		B2C49A9D1F1FF4A50084218A /* c.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = c.wav; path = ../../LearnYourNotes/LearnYourNotes/c.wav; sourceTree = "<group>"; };
-		B2C49A9E1F1FF4A50084218A /* d.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = d.wav; path = ../../LearnYourNotes/LearnYourNotes/d.wav; sourceTree = "<group>"; };
-		B2C49A9F1F1FF4A50084218A /* e.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = e.wav; path = ../../LearnYourNotes/LearnYourNotes/e.wav; sourceTree = "<group>"; };
-		B2C49AA01F1FF4A50084218A /* eflat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = eflat.wav; path = ../../LearnYourNotes/LearnYourNotes/eflat.wav; sourceTree = "<group>"; };
-		B2C49AA11F1FF4A50084218A /* fsharp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = fsharp.wav; path = ../../LearnYourNotes/LearnYourNotes/fsharp.wav; sourceTree = "<group>"; };
-		B2C49AA21F1FF4A50084218A /* f.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = f.wav; path = ../../LearnYourNotes/LearnYourNotes/f.wav; sourceTree = "<group>"; };
-		B2C49AA31F1FF4A50084218A /* gsharp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = gsharp.wav; path = ../../LearnYourNotes/LearnYourNotes/gsharp.wav; sourceTree = "<group>"; };
-		B2C49AA41F1FF4A50084218A /* g.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = g.wav; path = ../../LearnYourNotes/LearnYourNotes/g.wav; sourceTree = "<group>"; };
 		B2C49AB21F1FF5D90084218A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../Wylan Programming 2017/Testing/CustomTabbarController/CustomTabbarController/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -154,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				B2C49A6D1F1FF3E60084218A /* PianoSoundFilesPath.swift */,
+				B2BA6D2A1F21AE9000F4A7E9 /* ElectricGuitarSoundsPath.swift */,
 				B2C49A6E1F1FF3E60084218A /* GuitarMajorChords.swift */,
 				B2C49A6F1F1FF3E60084218A /* ViolinSoundFilesPath.swift */,
 				B2C49A701F1FF3E60084218A /* DiamondShapedButton.swift */,
@@ -217,18 +232,17 @@
 		B2C49A7B1F1FF4320084218A /* PianoSounds */ = {
 			isa = PBXGroup;
 			children = (
-				B2C49A991F1FF4A50084218A /* a.wav */,
-				B2C49A9A1F1FF4A50084218A /* b.wav */,
-				B2C49A9B1F1FF4A50084218A /* bflat.wav */,
-				B2C49A9C1F1FF4A50084218A /* csharp.wav */,
-				B2C49A9D1F1FF4A50084218A /* c.wav */,
-				B2C49A9E1F1FF4A50084218A /* d.wav */,
-				B2C49A9F1F1FF4A50084218A /* e.wav */,
-				B2C49AA01F1FF4A50084218A /* eflat.wav */,
-				B2C49AA11F1FF4A50084218A /* fsharp.wav */,
-				B2C49AA21F1FF4A50084218A /* f.wav */,
-				B2C49AA31F1FF4A50084218A /* gsharp.wav */,
-				B2C49AA41F1FF4A50084218A /* g.wav */,
+				B2BA6D2C1F21B36F00F4A7E9 /* b.wav */,
+				B2BA6D2D1F21B36F00F4A7E9 /* bflat.wav */,
+				B2BA6D2E1F21B36F00F4A7E9 /* c.wav */,
+				B2BA6D2F1F21B36F00F4A7E9 /* csharp.wav */,
+				B2BA6D301F21B36F00F4A7E9 /* d.wav */,
+				B2BA6D311F21B36F00F4A7E9 /* e.wav */,
+				B2BA6D321F21B36F00F4A7E9 /* eflat.wav */,
+				B2BA6D331F21B36F00F4A7E9 /* f.wav */,
+				B2BA6D341F21B36F00F4A7E9 /* fsharp.wav */,
+				B2BA6D351F21B36F00F4A7E9 /* g.wav */,
+				B2BA6D361F21B36F00F4A7E9 /* gsharp.wav */,
 			);
 			name = PianoSounds;
 			sourceTree = "<group>";
@@ -236,6 +250,13 @@
 		B2C49A7C1F1FF4560084218A /* GuitarSounds */ = {
 			isa = PBXGroup;
 			children = (
+				B2BA6D1C1F21AE7500F4A7E9 /* ElectricGuitarA.wav */,
+				B2BA6D1D1F21AE7500F4A7E9 /* ElectricGuitarB.wav */,
+				B2BA6D1E1F21AE7500F4A7E9 /* ElectricGuitarC.wav */,
+				B2BA6D1F1F21AE7500F4A7E9 /* ElectricGuitarD.wav */,
+				B2BA6D201F21AE7500F4A7E9 /* ElectricGuitarE.wav */,
+				B2BA6D211F21AE7500F4A7E9 /* ElectricGuitarF.wav */,
+				B2BA6D221F21AE7500F4A7E9 /* ElectricGuitarG.wav */,
 				B2C49A8B1F1FF4930084218A /* EMajorGuitarChord.wav */,
 				B2C49A8C1F1FF4930084218A /* DMajorGuitarChord.wav */,
 				B2C49A8D1F1FF4930084218A /* GMajorGuitarChord.wav */,
@@ -307,35 +328,41 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2C49AAA1F1FF4A50084218A /* d.wav in Resources */,
-				B2C49AA91F1FF4A50084218A /* c.wav in Resources */,
 				B20A0D6F1F1FF2FE00D461F7 /* LaunchScreen.storyboard in Resources */,
 				B2C49A921F1FF4930084218A /* EMajorGuitarChord.wav in Resources */,
-				B2C49AA61F1FF4A50084218A /* b.wav in Resources */,
 				B2C49A981F1FF4930084218A /* AMajorGuitarChord.wav in Resources */,
-				B2C49AB01F1FF4A50084218A /* g.wav in Resources */,
-				B2C49AAB1F1FF4A50084218A /* e.wav in Resources */,
+				B2BA6D271F21AE7500F4A7E9 /* ElectricGuitarE.wav in Resources */,
+				B2BA6D411F21B36F00F4A7E9 /* gsharp.wav in Resources */,
 				B2C49A861F1FF4850084218A /* violinC.wav in Resources */,
-				B2C49AAD1F1FF4A50084218A /* fsharp.wav in Resources */,
+				B2BA6D251F21AE7500F4A7E9 /* ElectricGuitarC.wav in Resources */,
+				B2BA6D3E1F21B36F00F4A7E9 /* f.wav in Resources */,
 				B2C49A961F1FF4930084218A /* CMajorGuitarChord.wav in Resources */,
 				B2C49A941F1FF4930084218A /* GMajorGuitarChord.wav in Resources */,
-				B2C49AAF1F1FF4A50084218A /* gsharp.wav in Resources */,
+				B2BA6D3D1F21B36F00F4A7E9 /* eflat.wav in Resources */,
+				B2BA6D391F21B36F00F4A7E9 /* c.wav in Resources */,
 				B2C49A871F1FF4850084218A /* violinD.wav in Resources */,
 				B2C49A841F1FF4850084218A /* violinA.wav in Resources */,
+				B2BA6D291F21AE7500F4A7E9 /* ElectricGuitarG.wav in Resources */,
 				B2C49A891F1FF4850084218A /* violinF.wav in Resources */,
-				B2C49AAC1F1FF4A50084218A /* eflat.wav in Resources */,
-				B2C49AAE1F1FF4A50084218A /* f.wav in Resources */,
 				B2C49A971F1FF4930084218A /* BMajorGuitarChord.wav in Resources */,
+				B2BA6D261F21AE7500F4A7E9 /* ElectricGuitarD.wav in Resources */,
+				B2BA6D3C1F21B36F00F4A7E9 /* e.wav in Resources */,
 				B2C49A931F1FF4930084218A /* DMajorGuitarChord.wav in Resources */,
 				B20A0D6C1F1FF2FE00D461F7 /* Assets.xcassets in Resources */,
-				B2C49AA81F1FF4A50084218A /* csharp.wav in Resources */,
-				B2C49AA51F1FF4A50084218A /* a.wav in Resources */,
+				B2BA6D241F21AE7500F4A7E9 /* ElectricGuitarB.wav in Resources */,
+				B2BA6D371F21B36F00F4A7E9 /* b.wav in Resources */,
 				B2C49A881F1FF4850084218A /* violinE.wav in Resources */,
+				B2BA6D3F1F21B36F00F4A7E9 /* fsharp.wav in Resources */,
+				B2BA6D381F21B36F00F4A7E9 /* bflat.wav in Resources */,
+				B2BA6D3B1F21B36F00F4A7E9 /* d.wav in Resources */,
 				B2C49AB31F1FF5D90084218A /* Main.storyboard in Resources */,
 				B2C49A951F1FF4930084218A /* FMajorGuitarChord.wav in Resources */,
 				B2C49A851F1FF4850084218A /* violinB.wav in Resources */,
-				B2C49AA71F1FF4A50084218A /* bflat.wav in Resources */,
 				B2C49A8A1F1FF4850084218A /* violinG.wav in Resources */,
+				B2BA6D231F21AE7500F4A7E9 /* ElectricGuitarA.wav in Resources */,
+				B2BA6D281F21AE7500F4A7E9 /* ElectricGuitarF.wav in Resources */,
+				B2BA6D401F21B36F00F4A7E9 /* g.wav in Resources */,
+				B2BA6D3A1F21B36F00F4A7E9 /* csharp.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +376,7 @@
 				B2C49A641F1FF3C60084218A /* MainViewController.swift in Sources */,
 				B2C49A6A1F1FF3DA0084218A /* GameController.swift in Sources */,
 				B2C49A661F1FF3C60084218A /* ScoresViewController.swift in Sources */,
+				B2BA6D2B1F21AE9000F4A7E9 /* ElectricGuitarSoundsPath.swift in Sources */,
 				B2C49A711F1FF3E60084218A /* PianoSoundFilesPath.swift in Sources */,
 				B2C49A631F1FF3C60084218A /* TabBarViewController.swift in Sources */,
 				B2C49A741F1FF3E60084218A /* DiamondShapedButton.swift in Sources */,
