@@ -11,37 +11,33 @@ import UIKit
 class SoundsCollectionViewCell: UICollectionViewCell {
     
     var isButtonSelected: Bool = false
+    var cellIndexPath: Int = 0
     
+    weak var delegate: SoundCollectioncellDelegate?
+
     @IBOutlet weak var soundButton: UIButton!
     @IBOutlet weak var selectedImageState: UIImageView!
     @IBOutlet weak var normalImageState: UIImageView!
     
     func switchButtonStates(){
-        
         if selectedImageState.isHidden == false {
             selectedImageState.isHidden = true
         }else if selectedImageState.isHidden == true {
             selectedImageState.isHidden = false
         }
-        
         if normalImageState.isHidden == true {
            normalImageState.isHidden = false
         } else if normalImageState.isHidden == false {
             normalImageState.isHidden = true
         }
-
-        
     }
-    
-    var cellIndexPath: Int = 0
-   
+
     
     @IBAction func soundButtonTapped(_ sender: Any) {
         delegate?.settingButtonChanges(cell: self, selectedValue: cellIndexPath)
         switchButtonStates()
+        InstrumentsController.shared.changeCurrentInstrument(soundIndex: cellIndexPath)
     }
-    
-    weak var delegate: SoundCollectioncellDelegate?
     
     
     
