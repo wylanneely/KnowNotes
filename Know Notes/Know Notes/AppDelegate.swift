@@ -11,12 +11,18 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    var window: UIWindow?
+   var window: UIWindow?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        HighScoreController.shared.fetchOnlineHighscores(completion: { (scores) in
+            
+            
+            HighScoreController.shared.onlineHighScores = scores
+        })
         return true
+        
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

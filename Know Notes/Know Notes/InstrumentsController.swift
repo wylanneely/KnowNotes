@@ -19,6 +19,7 @@ class InstrumentsController {
         return [piano,guitar,violin,electricGuitar]
     }
     
+    //This is for when the collectionview button sends its index to set the current instrument
     func changeCurrentInstrument(soundIndex: Int) {
         switch soundIndex {
         case 0:
@@ -52,7 +53,7 @@ class InstrumentsController {
         let pianoFNote = Note(name: "F Note", path: pianoFNoteURL, soundFileExtenstion: "wav")
         let pianoGNote = Note(name: "G Note", path: pianoGNoteURL, soundFileExtenstion: "wav")
         
-        // the Notes Array MUST Be Consistent In Order -- note A starts at index: 0
+        // the Notes Array MUST Be Consistent In Order -- note A allways starts at index: 0
         return Instrument(name: "Piano", notes: [pianoANote,pianoBNote,pianoCNote,pianoDNote,pianoENote,pianoFNote,pianoGNote], easyNotes: [pianoANote,pianoCNote,pianoDNote,pianoFNote], selectedImage: #imageLiteral(resourceName: "PianoSelected"), unselectedImage: #imageLiteral(resourceName: "PianoUnselected"))
     }
     

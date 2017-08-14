@@ -31,17 +31,12 @@
 		B2BA6D271F21AE7500F4A7E9 /* ElectricGuitarE.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2BA6D201F21AE7500F4A7E9 /* ElectricGuitarE.wav */; };
 		B2BA6D281F21AE7500F4A7E9 /* ElectricGuitarF.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2BA6D211F21AE7500F4A7E9 /* ElectricGuitarF.wav */; };
 		B2BA6D291F21AE7500F4A7E9 /* ElectricGuitarG.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2BA6D221F21AE7500F4A7E9 /* ElectricGuitarG.wav */; };
-		B2BA6D2B1F21AE9000F4A7E9 /* ElectricGuitarSoundsPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BA6D2A1F21AE9000F4A7E9 /* ElectricGuitarSoundsPath.swift */; };
 		B2C49A631F1FF3C60084218A /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C49A5F1F1FF3C60084218A /* TabBarViewController.swift */; };
 		B2C49A641F1FF3C60084218A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C49A601F1FF3C60084218A /* MainViewController.swift */; };
 		B2C49A651F1FF3C60084218A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C49A611F1FF3C60084218A /* SettingsViewController.swift */; };
 		B2C49A661F1FF3C60084218A /* ScoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C49A621F1FF3C60084218A /* ScoresViewController.swift */; };
 		B2C49A6A1F1FF3DA0084218A /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C49A671F1FF3DA0084218A /* GameController.swift */; };
-		B2C49A6B1F1FF3DA0084218A /* SoundController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C49A681F1FF3DA0084218A /* SoundController.swift */; };
 		B2C49A6C1F1FF3DA0084218A /* HighScoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C49A691F1FF3DA0084218A /* HighScoreController.swift */; };
-		B2C49A711F1FF3E60084218A /* PianoSoundFilesPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C49A6D1F1FF3E60084218A /* PianoSoundFilesPath.swift */; };
-		B2C49A721F1FF3E60084218A /* GuitarMajorChords.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C49A6E1F1FF3E60084218A /* GuitarMajorChords.swift */; };
-		B2C49A731F1FF3E60084218A /* ViolinSoundFilesPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C49A6F1F1FF3E60084218A /* ViolinSoundFilesPath.swift */; };
 		B2C49A741F1FF3E60084218A /* DiamondShapedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C49A701F1FF3E60084218A /* DiamondShapedButton.swift */; };
 		B2C49A841F1FF4850084218A /* violinA.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2C49A7D1F1FF4850084218A /* violinA.wav */; };
 		B2C49A851F1FF4850084218A /* violinB.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2C49A7E1F1FF4850084218A /* violinB.wav */; };
@@ -58,6 +53,7 @@
 		B2C49A971F1FF4930084218A /* BMajorGuitarChord.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2C49A901F1FF4930084218A /* BMajorGuitarChord.wav */; };
 		B2C49A981F1FF4930084218A /* AMajorGuitarChord.wav in Resources */ = {isa = PBXBuildFile; fileRef = B2C49A911F1FF4930084218A /* AMajorGuitarChord.wav */; };
 		B2C49AB31F1FF5D90084218A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2C49AB11F1FF5D90084218A /* Main.storyboard */; };
+		B2DA5CF41F3F65E300ACE1F0 /* Highscore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DA5CF31F3F65E300ACE1F0 /* Highscore.swift */; };
 		B2EC8E701F3271E6003E8A92 /* Instrument.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EC8E6F1F3271E6003E8A92 /* Instrument.swift */; };
 		B2EC8E721F32722A003E8A92 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EC8E711F32722A003E8A92 /* Note.swift */; };
 		B2EC8E741F3273E4003E8A92 /* InstrumentsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EC8E731F3273E4003E8A92 /* InstrumentsController.swift */; };
@@ -90,17 +86,12 @@
 		B2BA6D201F21AE7500F4A7E9 /* ElectricGuitarE.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = ElectricGuitarE.wav; path = ../../Sounds/electricGuitar/ElectricGuitarE.wav; sourceTree = "<group>"; };
 		B2BA6D211F21AE7500F4A7E9 /* ElectricGuitarF.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = ElectricGuitarF.wav; path = ../../Sounds/electricGuitar/ElectricGuitarF.wav; sourceTree = "<group>"; };
 		B2BA6D221F21AE7500F4A7E9 /* ElectricGuitarG.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = ElectricGuitarG.wav; path = ../../Sounds/electricGuitar/ElectricGuitarG.wav; sourceTree = "<group>"; };
-		B2BA6D2A1F21AE9000F4A7E9 /* ElectricGuitarSoundsPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElectricGuitarSoundsPath.swift; sourceTree = "<group>"; };
 		B2C49A5F1F1FF3C60084218A /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarViewController.swift; path = "../../../Wylan Programming 2017/Testing/CustomTabbarController/CustomTabbarController/TabBarViewController.swift"; sourceTree = "<group>"; };
 		B2C49A601F1FF3C60084218A /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = "../../../Wylan Programming 2017/Testing/CustomTabbarController/CustomTabbarController/MainViewController.swift"; sourceTree = "<group>"; };
 		B2C49A611F1FF3C60084218A /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = "../../../Wylan Programming 2017/Testing/CustomTabbarController/CustomTabbarController/SettingsViewController.swift"; sourceTree = "<group>"; };
 		B2C49A621F1FF3C60084218A /* ScoresViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScoresViewController.swift; path = "../../../Wylan Programming 2017/Testing/CustomTabbarController/CustomTabbarController/ScoresViewController.swift"; sourceTree = "<group>"; };
 		B2C49A671F1FF3DA0084218A /* GameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameController.swift; path = "../../../Wylan Programming 2017/Testing/CustomTabbarController/CustomTabbarController/GameController.swift"; sourceTree = "<group>"; };
-		B2C49A681F1FF3DA0084218A /* SoundController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SoundController.swift; path = "../../../Wylan Programming 2017/Testing/CustomTabbarController/CustomTabbarController/SoundController.swift"; sourceTree = "<group>"; };
 		B2C49A691F1FF3DA0084218A /* HighScoreController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HighScoreController.swift; path = "../../../Wylan Programming 2017/Testing/CustomTabbarController/CustomTabbarController/HighScoreController.swift"; sourceTree = "<group>"; };
-		B2C49A6D1F1FF3E60084218A /* PianoSoundFilesPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PianoSoundFilesPath.swift; path = "../../../Wylan Programming 2017/Testing/CustomTabbarController/CustomTabbarController/PianoSoundFilesPath.swift"; sourceTree = "<group>"; };
-		B2C49A6E1F1FF3E60084218A /* GuitarMajorChords.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GuitarMajorChords.swift; path = "../../../Wylan Programming 2017/Testing/CustomTabbarController/CustomTabbarController/GuitarMajorChords.swift"; sourceTree = "<group>"; };
-		B2C49A6F1F1FF3E60084218A /* ViolinSoundFilesPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViolinSoundFilesPath.swift; path = "../../../Wylan Programming 2017/Testing/CustomTabbarController/CustomTabbarController/ViolinSoundFilesPath.swift"; sourceTree = "<group>"; };
 		B2C49A701F1FF3E60084218A /* DiamondShapedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiamondShapedButton.swift; path = "../../../Wylan Programming 2017/Testing/CustomTabbarController/CustomTabbarController/DiamondShapedButton.swift"; sourceTree = "<group>"; };
 		B2C49A7D1F1FF4850084218A /* violinA.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = violinA.wav; path = ../../../../Documents/violinA.wav; sourceTree = "<group>"; };
 		B2C49A7E1F1FF4850084218A /* violinB.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = violinB.wav; path = ../../../../Documents/violinB.wav; sourceTree = "<group>"; };
@@ -117,6 +108,7 @@
 		B2C49A901F1FF4930084218A /* BMajorGuitarChord.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = BMajorGuitarChord.wav; path = ../../../../Documents/BMajorGuitarChord.wav; sourceTree = "<group>"; };
 		B2C49A911F1FF4930084218A /* AMajorGuitarChord.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = AMajorGuitarChord.wav; path = ../../../../Documents/AMajorGuitarChord.wav; sourceTree = "<group>"; };
 		B2C49AB21F1FF5D90084218A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../Wylan Programming 2017/Testing/CustomTabbarController/CustomTabbarController/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		B2DA5CF31F3F65E300ACE1F0 /* Highscore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Highscore.swift; sourceTree = "<group>"; };
 		B2EC8E6F1F3271E6003E8A92 /* Instrument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instrument.swift; sourceTree = "<group>"; };
 		B2EC8E711F32722A003E8A92 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		B2EC8E731F3273E4003E8A92 /* InstrumentsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstrumentsController.swift; sourceTree = "<group>"; };
@@ -153,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				B2C49AB11F1FF5D90084218A /* Main.storyboard */,
+				B20A0D641F1FF2FE00D461F7 /* AppDelegate.swift */,
 				B24161C31F20126900DEBDBB /* Views */,
 				B20A0D791F1FF32D00D461F7 /* ViewControllers */,
 				B20A0D781F1FF32C00D461F7 /* ModelControllers */,
@@ -166,7 +159,6 @@
 			isa = PBXGroup;
 			children = (
 				B2C49A791F1FF41E0084218A /* Sounds */,
-				B20A0D641F1FF2FE00D461F7 /* AppDelegate.swift */,
 				B20A0D6B1F1FF2FE00D461F7 /* Assets.xcassets */,
 				B20A0D6D1F1FF2FE00D461F7 /* LaunchScreen.storyboard */,
 				B20A0D701F1FF2FE00D461F7 /* Info.plist */,
@@ -177,12 +169,11 @@
 		B20A0D771F1FF32B00D461F7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				B2C49A6D1F1FF3E60084218A /* PianoSoundFilesPath.swift */,
-				B2BA6D2A1F21AE9000F4A7E9 /* ElectricGuitarSoundsPath.swift */,
-				B2C49A6E1F1FF3E60084218A /* GuitarMajorChords.swift */,
-				B2C49A6F1F1FF3E60084218A /* ViolinSoundFilesPath.swift */,
+				B2EC8E6F1F3271E6003E8A92 /* Instrument.swift */,
+				B2EC8E711F32722A003E8A92 /* Note.swift */,
 				B2C49A701F1FF3E60084218A /* DiamondShapedButton.swift */,
 				B297921E1F211A1F003D1B1D /* Extensions.swift */,
+				B2DA5CF31F3F65E300ACE1F0 /* Highscore.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -191,11 +182,8 @@
 			isa = PBXGroup;
 			children = (
 				B2C49A671F1FF3DA0084218A /* GameController.swift */,
-				B2C49A681F1FF3DA0084218A /* SoundController.swift */,
 				B2C49A691F1FF3DA0084218A /* HighScoreController.swift */,
 				B2EC8E731F3273E4003E8A92 /* InstrumentsController.swift */,
-				B2EC8E6F1F3271E6003E8A92 /* Instrument.swift */,
-				B2EC8E711F32722A003E8A92 /* Note.swift */,
 			);
 			name = ModelControllers;
 			sourceTree = "<group>";
@@ -395,17 +383,13 @@
 				B2B6881B1F226934001CD697 /* SoundsCollectionViewCell.swift in Sources */,
 				B2C49A661F1FF3C60084218A /* ScoresViewController.swift in Sources */,
 				B2EC8E721F32722A003E8A92 /* Note.swift in Sources */,
-				B2BA6D2B1F21AE9000F4A7E9 /* ElectricGuitarSoundsPath.swift in Sources */,
-				B2C49A711F1FF3E60084218A /* PianoSoundFilesPath.swift in Sources */,
 				B2C49A631F1FF3C60084218A /* TabBarViewController.swift in Sources */,
 				B2C49A741F1FF3E60084218A /* DiamondShapedButton.swift in Sources */,
 				B2C49A6C1F1FF3DA0084218A /* HighScoreController.swift in Sources */,
-				B2C49A6B1F1FF3DA0084218A /* SoundController.swift in Sources */,
 				B297921F1F211A1F003D1B1D /* Extensions.swift in Sources */,
 				B2EC8E701F3271E6003E8A92 /* Instrument.swift in Sources */,
 				B20A0D651F1FF2FE00D461F7 /* AppDelegate.swift in Sources */,
-				B2C49A721F1FF3E60084218A /* GuitarMajorChords.swift in Sources */,
-				B2C49A731F1FF3E60084218A /* ViolinSoundFilesPath.swift in Sources */,
+				B2DA5CF41F3F65E300ACE1F0 /* Highscore.swift in Sources */,
 				B2C49A651F1FF3C60084218A /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
