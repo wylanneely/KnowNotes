@@ -15,14 +15,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        HighScoreController.shared.fetchOnlineHighscores(completion: { (scores) in
-            
-            
-            HighScoreController.shared.onlineHighScores = scores
-        })
+        HighScoreController.shared.fetchOnlineHighscores { (highscores) in
+            var easyScores: [HighScore] = []
+            var medScores: [HighScore] = []
+            var hardScores: [HighScore] = []
+            for highscore in highscores {
+                if highscore.lives == 1 {
+                    hardScores.append(highscore)
+                }
+                if highscore.lives == 4 {
+                    medScores.append(highscore)
+                }
+                if highscore.lives == 5 {
+                    easyScores.append(highscore)
+                }
+            }
+            HighScoreController.shared.onlineEasyScores = easyScores
+            HighScoreController.shared.onlineMediumScores = medScores
+            HighScoreController.shared.onlineHardScores = hardScores
+        }
         return true
-        
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
