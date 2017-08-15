@@ -38,49 +38,33 @@
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (__C.UIAlertAction) -&gt; () in Know_Notes.MainViewController.presentHighScoreAlert(score: Swift.Int) -&gt; ()"
+                  symbolName = "Know_Notes.MainViewController.(presentHighScoreAlert (score : Swift.Int) -&gt; ()).(closure #2)"
                   moduleName = "Know Notes"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/aliamneely/Desktop/Wylan%20Programming%202017/Testing/CustomTabbarController/CustomTabbarController/MainViewController.swift"
-                  timestampString = "524440021.900313"
+                  timestampString = "524457858.171075"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "219"
                   endingLineNumber = "219"
-                  offsetFromSymbolStart = "2936">
+                  offsetFromSymbolStart = "3798">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Bool) -&gt; () in closure #2 (__C.UIAlertAction) -&gt; () in Know_Notes.MainViewController.presentHighScoreAlert(score: Swift.Int) -&gt; ()"
+                  symbolName = "Know_Notes.MainViewController.(presentHighScoreAlert (score : Swift.Int) -&gt; ()).(closure #2).(closure #1)"
                   moduleName = "Know Notes"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/aliamneely/Desktop/Wylan%20Programming%202017/Testing/CustomTabbarController/CustomTabbarController/MainViewController.swift"
-                  timestampString = "524440021.902649"
+                  timestampString = "524457858.172908"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "219"
                   endingLineNumber = "219"
-                  offsetFromSymbolStart = "380">
+                  offsetFromSymbolStart = "322">
                </Location>
             </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../../Wylan Programming 2017/Testing/CustomTabbarController/CustomTabbarController/HighScoreController.swift"
-            timestampString = "524439905.745117"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
-            landmarkName = "isNewScoreALocalHighscore(newScore:gameMode:)"
-            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -217,110 +201,46 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Know Notes/AppDelegate.swift"
-            timestampString = "524439905.745958"
+            filePath = "Know Notes/InstructionsViewController.swift"
+            timestampString = "524458078.595705"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
-            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "backButtonTapped(_:)"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Know Notes/AppDelegate.swift"
-            timestampString = "524439905.746065"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
-            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Know Notes/AppDelegate.swift"
-            timestampString = "524439905.74616"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Know Notes/AppDelegate.swift"
-            timestampString = "524439905.74623"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Know Notes/AppDelegate.swift"
-            timestampString = "524439905.746293"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Know Notes/AppDelegate.swift"
-            timestampString = "524439905.746376"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
-            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Know Notes/AppDelegate.swift"
-            timestampString = "524439905.746438"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
-            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
-            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Know_Notes.InstructionsViewController.backButtonTapped (Any) -&gt; ()"
+                  moduleName = "Know Notes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aliamneely/Desktop/CapStone/Know%20Notes/Know%20Notes/InstructionsViewController.swift"
+                  timestampString = "524457858.20392"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "129">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Know_Notes.InstructionsViewController.(backButtonTapped (Any) -&gt; ()).(closure #1)"
+                  moduleName = "Know Notes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aliamneely/Desktop/CapStone/Know%20Notes/Know%20Notes/InstructionsViewController.swift"
+                  timestampString = "524457858.205562"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

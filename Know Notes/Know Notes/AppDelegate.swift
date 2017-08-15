@@ -30,9 +30,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                     easyScores.append(highscore)
                 }
             }
-            HighScoreController.shared.onlineEasyScores = easyScores
-            HighScoreController.shared.onlineMediumScores = medScores
-            HighScoreController.shared.onlineHardScores = hardScores
+            HighScoreController.shared.onlineEasyScores = easyScores.sorted {($0.score > $1.score)}
+            HighScoreController.shared.onlineMediumScores = medScores.sorted {($0.score > $1.score)}
+            HighScoreController.shared.onlineHardScores = hardScores.sorted {($0.score > $1.score)}
         }
         return true
     }

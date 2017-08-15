@@ -57,6 +57,7 @@
 		B2EC8E701F3271E6003E8A92 /* Instrument.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EC8E6F1F3271E6003E8A92 /* Instrument.swift */; };
 		B2EC8E721F32722A003E8A92 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EC8E711F32722A003E8A92 /* Note.swift */; };
 		B2EC8E741F3273E4003E8A92 /* InstrumentsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EC8E731F3273E4003E8A92 /* InstrumentsController.swift */; };
+		B2ECCE5A1F4293D30059DFBF /* InstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2ECCE591F4293D30059DFBF /* InstructionsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -112,6 +113,7 @@
 		B2EC8E6F1F3271E6003E8A92 /* Instrument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instrument.swift; sourceTree = "<group>"; };
 		B2EC8E711F32722A003E8A92 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		B2EC8E731F3273E4003E8A92 /* InstrumentsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstrumentsController.swift; sourceTree = "<group>"; };
+		B2ECCE591F4293D30059DFBF /* InstructionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructionsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +197,7 @@
 				B2C49A611F1FF3C60084218A /* SettingsViewController.swift */,
 				B2C49A601F1FF3C60084218A /* MainViewController.swift */,
 				B2C49A621F1FF3C60084218A /* ScoresViewController.swift */,
+				B2ECCE591F4293D30059DFBF /* InstructionsViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -386,6 +389,7 @@
 				B2C49A631F1FF3C60084218A /* TabBarViewController.swift in Sources */,
 				B2C49A741F1FF3E60084218A /* DiamondShapedButton.swift in Sources */,
 				B2C49A6C1F1FF3DA0084218A /* HighScoreController.swift in Sources */,
+				B2ECCE5A1F4293D30059DFBF /* InstructionsViewController.swift in Sources */,
 				B297921F1F211A1F003D1B1D /* Extensions.swift in Sources */,
 				B2EC8E701F3271E6003E8A92 /* Instrument.swift in Sources */,
 				B20A0D651F1FF2FE00D461F7 /* AppDelegate.swift in Sources */,
