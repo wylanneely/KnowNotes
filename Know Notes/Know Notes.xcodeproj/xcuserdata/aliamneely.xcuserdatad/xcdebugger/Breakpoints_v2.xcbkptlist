@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../../Wylan Programming 2017/Testing/CustomTabbarController/CustomTabbarController/MainViewController.swift"
-            timestampString = "524439905.745019"
+            timestampString = "524522905.920193"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "218"
-            endingLineNumber = "218"
+            startingLineNumber = "219"
+            endingLineNumber = "219"
             landmarkName = "presentHighScoreAlert(score:)"
             landmarkType = "7">
             <Locations>
