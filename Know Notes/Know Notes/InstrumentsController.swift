@@ -16,7 +16,8 @@ class InstrumentsController {
     
     var currentInstrument: Instrument?
     var instrumentsArray: [Instrument] {
-        return [piano,guitar,violin,electricGuitar]
+            //Keep Order Consistent
+        return [piano,guitar,violin,electricGuitar,banjo,xylophone]
     }
     
     //This is for when the collectionview button sends its index to set the current instrument
@@ -30,6 +31,10 @@ class InstrumentsController {
             self.currentInstrument = violin
         case 3:
             self.currentInstrument = electricGuitar
+        case 4:
+            self.currentInstrument = banjo
+        case 5:
+            self.currentInstrument = xylophone
         default:
             self.currentInstrument = piano
         }
@@ -120,6 +125,48 @@ class InstrumentsController {
         
         return Instrument(name: "Electric Guitar", notes: [electricGuitarANote,electricGuitarBNote,electricGuitarCNote,electricGuitarDNote,electricGuitarENote,electricGuitarFNote,electricGuitarGNote], easyNotes: [electricGuitarANote,electricGuitarCNote,electricGuitarDNote,electricGuitarFNote], selectedImage: #imageLiteral(resourceName: "ElectricGuitarSelected"), unselectedImage: #imageLiteral(resourceName: "ElectricGuitarUnselected"))
    
+    }
+    // Example PlaceHolder actually banjo
+    var banjo: Instrument {
+        let guitarANoteURL = URL(fileURLWithPath: Bundle.main.path(forResource: "AMajorGuitarChord", ofType: "wav")!)
+        let guitarBNoteURL = URL(fileURLWithPath: Bundle.main.path(forResource: "BMajorGuitarChord", ofType: "wav")!)
+        let guitarCNoteURL = URL(fileURLWithPath: Bundle.main.path(forResource: "CMajorGuitarChord", ofType: "wav")!)
+        let guitarDNoteURL = URL(fileURLWithPath: Bundle.main.path(forResource: "DMajorGuitarChord", ofType: "wav")!)
+        let guitarENoteURL = URL(fileURLWithPath: Bundle.main.path(forResource: "EMajorGuitarChord", ofType: "wav")!)
+        let guitarFNoteURL = URL(fileURLWithPath: Bundle.main.path(forResource: "FMajorGuitarChord", ofType: "wav")!)
+        let guitarGNoteURL = URL(fileURLWithPath: Bundle.main.path(forResource: "GMajorGuitarChord", ofType: "wav")!)
+        
+        let guitarANote = Note(name: "A Chord", path: guitarANoteURL, soundFileExtenstion: "wav")
+        let guitarBNote = Note(name: "B Chord", path: guitarBNoteURL, soundFileExtenstion: "wav")
+        let guitarCNote = Note(name: "C Chord", path: guitarCNoteURL, soundFileExtenstion: "wav")
+        let guitarDNote = Note(name: "D Chord", path: guitarDNoteURL, soundFileExtenstion: "wav")
+        let guitarENote = Note(name: "E Chord", path: guitarENoteURL, soundFileExtenstion: "wav")
+        let guitarFNote = Note(name: "F Chord", path: guitarFNoteURL, soundFileExtenstion: "wav")
+        let guitarGNote = Note(name: "G Chord", path: guitarGNoteURL, soundFileExtenstion: "wav")
+        
+        return Instrument(name: "Guitar", notes: [guitarANote,guitarBNote,guitarCNote,guitarDNote,guitarENote,guitarFNote,guitarGNote], easyNotes: [guitarANote,guitarBNote,], selectedImage: #imageLiteral(resourceName: "BanjoUnPurchasedTest"), unselectedImage: #imageLiteral(resourceName: "Xylophone"))
+        
+    }
+    // Another Placeholder, actually piano
+    var xylophone: Instrument {
+        
+        let pianoANoteURL = URL(fileURLWithPath: Bundle.main.path(forResource: "a", ofType: "wav")!)
+        let pianoBNoteURL = URL(fileURLWithPath: Bundle.main.path(forResource: "b", ofType: "wav")!)
+        let pianoCNoteURL = URL(fileURLWithPath: Bundle.main.path(forResource: "c", ofType: "wav")!)
+        let pianoDNoteURL = URL(fileURLWithPath: Bundle.main.path(forResource: "d", ofType: "wav")!)
+        let pianoENoteURL = URL(fileURLWithPath: Bundle.main.path(forResource: "e", ofType: "wav")!)
+        let pianoFNoteURL = URL(fileURLWithPath: Bundle.main.path(forResource: "f", ofType: "wav")!)
+        let pianoGNoteURL = URL(fileURLWithPath: Bundle.main.path(forResource: "g", ofType: "wav")!)
+        
+        let pianoANote = Note(name: "A Note", path: pianoANoteURL, soundFileExtenstion: "wav")
+        let pianoBNote = Note(name: "B Note", path: pianoBNoteURL, soundFileExtenstion: "wav")
+        let pianoCNote = Note(name: "C Note", path: pianoCNoteURL, soundFileExtenstion: "wav")
+        let pianoDNote = Note(name: "D Note", path: pianoDNoteURL, soundFileExtenstion: "wav")
+        let pianoENote = Note(name: "E Note", path: pianoENoteURL, soundFileExtenstion: "wav")
+        let pianoFNote = Note(name: "F Note", path: pianoFNoteURL, soundFileExtenstion: "wav")
+        let pianoGNote = Note(name: "G Note", path: pianoGNoteURL, soundFileExtenstion: "wav")
+        
+        return Instrument(name: "Piano", notes: [pianoANote,pianoBNote,pianoCNote,pianoDNote,pianoENote,pianoFNote,pianoGNote], easyNotes: [pianoANote,pianoCNote,pianoDNote,pianoFNote], selectedImage: #imageLiteral(resourceName: "Xylophone"), unselectedImage: #imageLiteral(resourceName: "BanjoUnPurchasedTest"))
     }
     
     
